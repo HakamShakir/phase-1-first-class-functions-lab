@@ -1,0 +1,102 @@
+{
+  "stats": {
+    "suites": 4,
+    "tests": 5,
+    "passes": 5,
+    "pending": 0,
+    "failures": 1,
+    "start": "2022-08-12T00:27:19.041Z",
+    "end": "2022-08-12T00:27:19.512Z",
+    "duration": 471
+  },
+  "tests": [
+    {
+      "title": "should return a new array containing the first two drivers from the passed-in array",
+      "fullTitle": "index.js returnFirstTwoDrivers() should return a new array containing the first two drivers from the passed-in array",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should return an array of the last two drivers",
+      "fullTitle": "index.js returnLastTwoDrivers() should return an array of the last two drivers",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "has the `returnFirstTwoDrivers` function to as its first element",
+      "fullTitle": "index.js selectingDrivers has the `returnFirstTwoDrivers` function to as its first element",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "has the `returnLastTwoDrivers` function to as its last element",
+      "fullTitle": "index.js selectingDrivers has the `returnLastTwoDrivers` function to as its last element",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "allows us to invoke either function from the array",
+      "fullTitle": "index.js selectingDrivers allows us to invoke either function from the array",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "\"after each\" hook for \"allows us to invoke either function from the array\"",
+      "fullTitle": "index.js \"after each\" hook for \"allows us to invoke either function from the array\"",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {
+        "message": "MAKE SURE YOUR ARRAY MANIPULATIONS ARE NON-DESTRUCTIVE: expected [ 'Antonia', 'Nuru' ] to deeply equal [ 'Antonia', 'Nuru', 'Amari', 'Mo' ]",
+        "showDiff": true,
+        "actual": "[\n  \"Antonia\"\n  \"Nuru\"\n]",
+        "expected": "[\n  \"Antonia\"\n  \"Nuru\"\n  \"Amari\"\n  \"Mo\"\n]",
+        "stack": "AssertionError: MAKE SURE YOUR ARRAY MANIPULATIONS ARE NON-DESTRUCTIVE: expected [ 'Antonia', 'Nuru' ] to deeply equal [ 'Antonia', 'Nuru', 'Amari', 'Mo' ]\n    at Context.<anonymous> (test\\indexTest.js:5:82)\n    at processImmediate (internal/timers.js:464:21)"
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "should return a new array containing the first two drivers from the passed-in array",
+      "fullTitle": "index.js returnFirstTwoDrivers() should return a new array containing the first two drivers from the passed-in array",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should return an array of the last two drivers",
+      "fullTitle": "index.js returnLastTwoDrivers() should return an array of the last two drivers",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "has the `returnFirstTwoDrivers` function to as its first element",
+      "fullTitle": "index.js selectingDrivers has the `returnFirstTwoDrivers` function to as its first element",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "has the `returnLastTwoDrivers` function to as its last element",
+      "fullTitle": "index.js selectingDrivers has the `returnLastTwoDrivers` function to as its last element",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "allows us to invoke either function from the array",
+      "fullTitle": "index.js selectingDrivers allows us to invoke either function from the array",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
